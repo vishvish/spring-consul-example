@@ -11,7 +11,12 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello world";
+        return "Hello Consul Fans!";
+    }
+
+    @RequestMapping("/health")
+    public String healthCheck() {
+        return "Healthcheck!";
     }
 
     public static void main(String[] args) {
