@@ -1,6 +1,10 @@
 spring:
+  application:
+    name: vishvish-sample-app
   cloud:
     consul:
+      discovery:
+        instanceId: ${spring.application.name}:${random.value}
       config:
         enabled: true
         prefix: configuration

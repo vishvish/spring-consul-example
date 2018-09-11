@@ -3,3 +3,7 @@ spring:
     consul:
       host: localhost
       port: 8500
+  autoconfigure:
+    exclude:
+      - org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration
+

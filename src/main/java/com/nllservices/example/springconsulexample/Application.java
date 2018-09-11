@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @SpringBootApplication
 @RestController
-public class SpringConsulExampleApplication {
+public class Application {
 
     @RequestMapping("/")
     public String home() {
@@ -15,6 +15,6 @@ public class SpringConsulExampleApplication {
     }
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(SpringConsulExampleApplication.class).web(true).run(args);
+        new SpringApplicationBuilder(Application.class).web(true).run(args);
     }
 }
