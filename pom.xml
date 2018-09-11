@@ -85,7 +85,7 @@
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>1.6.0</version>
                 <configuration>
-                    <mainClass>com.nllservices.example.springconsulexample.Application</mainClass>
+                    <mainClass>com.vishvish.example.springconsulexample.Application</mainClass>
                 </configuration>
             </plugin>
         </plugins>

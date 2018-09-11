@@ -1,4 +1,4 @@
-package com.nllservices.example.springconsulexample;
+package com.vishvish.example.springconsulexample;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
